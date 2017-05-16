@@ -1,0 +1,304 @@
+<table style="width: 809px; margin-top: 1px; border-collapse: collapse !important; color: black; background: white; border: 1px solid black; font-size: 12px; font-family: malgun gothic, dotum, arial, tahoma;">
+    <div>
+        <table class="__se_tbl"
+            style="border-width: 1px 1px 0px 0px; width: 809px; border-style: solid solid none none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) currentColor currentColor; border-image: none;"
+            border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 110px; height: 18px;"
+                        rowspan="1" colspan="2"><p align="left"
+                            style="text-align: left;">&nbsp;발주번호</p></td>
+
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 254px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="3"><p align="left"
+                            style="text-align: left;">&nbsp;$!{orderNum}</p></td>
+
+
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 110px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="2"><p align="left"
+                            style="text-align: left;" align="center"
+                            style="text-align: center;">&nbsp;발주일자</p></td>
+
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 255px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="3"><p align="left"
+                            style="text-align: left;">&nbsp;$!{orderDate}</p></td>
+
+
+                </tr>
+                <tr>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 30px; height: 72px; background-color: rgb(255, 255, 255);"
+                        rowspan="4" colspan="1"><p align="center"
+                            style="text-align: center;">발</p>
+                        <p align="center" style="text-align: center;">
+                            <br>
+                        </p>
+                        <p align="center" style="text-align: center;">주</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;등록번호</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 254px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="3"><p align="left"
+                            style="text-align: left;">&nbsp;$!{companyNum}</p></td>
+
+
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 30px; height: 72px; background-color: rgb(255, 255, 255);"
+                        rowspan="4" colspan="1"><p align="center"
+                            style="text-align: center;">공</p>
+                        <p align="center" style="text-align: center;">
+                            <br>
+                        </p>
+                        <p align="center" style="text-align: center;">급</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;등록번호</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 120px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;$!{companyNum1}</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 50px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;코&nbsp;
+                            드</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 120px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;$!{customCode}</p></td>
+                </tr>
+                <tr>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;상&nbsp;&nbsp;&nbsp;&nbsp;
+                            호</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 254px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="3"><p align="left"
+                            style="text-align: left;">&nbsp;$!{divName}</p></td>
+
+
+
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;상&nbsp;&nbsp;&nbsp;&nbsp;
+                            호</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 255px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="3"><p align="left"
+                            style="text-align: left;">&nbsp;$!{customFullName}</p></td>
+
+
+                </tr>
+                <tr>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;주&nbsp;&nbsp;&nbsp;&nbsp;
+                            소</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 254px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="3"><p align="left"
+                            style="text-align: left;">&nbsp;$!{korAddr}</p></td>
+
+
+
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;주&nbsp;&nbsp;&nbsp;&nbsp;
+                            소</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 254px; height: 18px; background-color: rgb(255, 255, 255);"
+                        rowspan="1" colspan="3"><p align="left"
+                            style="text-align: left;">&nbsp;$!{korAddr1}</p></td>
+
+
+                </tr>
+                <tr>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;전&nbsp;&nbsp;&nbsp;&nbsp;
+                            화</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 120px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;$!{telePhone}</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 50px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;팩&nbsp;
+                            스</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 120px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;$!{faxNum}</p></td>
+
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 80px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;전&nbsp;&nbsp;&nbsp;&nbsp;
+                            화</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 120px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;$!{custTel}</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 50px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;팩&nbsp;
+                            스</p></td>
+                    <td
+                        style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 120px; height: 18px; background-color: rgb(255, 255, 255);"><p align="left"
+                            style="text-align: left;">&nbsp;$!{custFax}</p></td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+    </div>
+    
+<table style="width: 809px; margin-top : 1px; border-collapse: collapse !important; color: black; background: white; border: 1px solid black; font-size: 12px; font-family: malgun gothic,dotum,arial,tahoma;">
+    <thead>
+    <colgroup>
+        <col width="30">
+        <col width="100">
+        <col width="110">
+        <col width="110">
+        <col width="50">
+        <col width="90">
+        <col width="90">
+        <col width="100">
+        <col width="79">                                               
+        <col width="50">
+    </colgroup>
+    </thead>
+    <tbody>
+        <tr>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">No.</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">자재코드</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">자재명</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">규격</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">단위</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">수량</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">단가</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">금액</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">납기일</td>
+            <td
+                style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">검사</td>
+        </tr>
+
+        #foreach($item in $list)
+        <tr>
+            <td rowspan="1" style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal;">$!{item.no}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: left; font-weight: normal;">$!{item.itemCode}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: left; font-weight: normal;">$!{item.itemName}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.spec}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.orderUnit}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.orderUnitQ}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.orderUnitP}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.orderO}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.dvryDate}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">2</td>
+
+        </tr>
+        #end
+        <tr style="padding: 3px !important; height: 500px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;"></tr>
+        </table>
+        <div>
+            <table class="__se_tbl"
+                style="border-width: 1px 1px 0px 0px; border-style: solid solid none none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) currentColor currentColor; border-image: none;"
+                border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                    	
+                    	
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 100px; height: 18px; background-color: rgb(255, 255, 255);"><p
+                                align="center">지 불 조 건</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 150px; height: 18px; background-color: rgb(255, 255, 255);"><p>&nbsp;정기결재</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 100px; height: 18px; background-color: rgb(255, 255, 255);"><p
+                                align="center">공 급 가 액</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 150px; height: 18px; background-color: rgb(255, 255, 255);">$!{valueOfSupply}
+                                <br>
+                            </td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 50px; height: 54px; background-color: rgb(255, 255, 255);"
+                            rowspan="3" colspan="1"><p
+                                align="center"
+                                style="text-align: center;">비</p>
+                            <p align="center"
+                                style="text-align: center;">
+                                <br>
+                            </p>
+                            <p align="center"
+                                style="text-align: center;">고</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 259px; height: 54px; background-color: rgb(255, 255, 255);"
+                            rowspan="3" colspan="1"><p>&nbsp;</p></td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 100px; height: 18px; background-color: rgb(255, 255, 255);"><p
+                                align="center">납 품 조&nbsp;건</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 150px; height: 18px; background-color: rgb(255, 255, 255);"><p>&nbsp;</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 100px; height: 18px; background-color: rgb(255, 255, 255);"><p
+                                align="center">세&nbsp;&nbsp;&nbsp;&nbsp;
+                                액</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 150px; height: 18px; background-color: rgb(255, 255, 255);">$!{taxAmount}
+                                <br>
+                            </td>
+
+
+                    </tr>
+                    <tr>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 100px; height: 18px; background-color: rgb(255, 255, 255);"><p
+                                align="center">납 품 장 소</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 150px; height: 18px; background-color: rgb(255, 255, 255);"><p>&nbsp;당사도착</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 100px; height: 18px; background-color: rgb(255, 255, 255);"><p
+                                align="center"
+                                style="text-align: center;">합&nbsp;&nbsp;&nbsp;&nbsp;
+                                계</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 150px; height: 18px; background-color: rgb(255, 255, 255);">$!{totalAmount}
+                                <br>
+                            </td>
+
+
+                    </tr>
+                    <tr>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 100px; height: 18px; background-color: rgb(255, 255, 255);"><p
+                                align="center"
+                                style="text-align: center;">검 사 방 법</p></td>
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 250px; height: 18px; background-color: rgb(255, 255, 255);"
+                            rowspan="1" colspan="2"><p>&nbsp;0-무
+                                검사,&nbsp; 1-전수 검사, &nbsp;2-샘플링 검사</p></td>
+
+                        <td
+                            style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(0, 0, 0) rgb(0, 0, 0); border-image: none; width: 459px; height: 18px; background-color: rgb(255, 255, 255);"
+                            rowspan="1" colspan="3"><p></p></td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+            <p></p>
+        </div>
+    </tbody>
+</table>
+<div style="display: none;">
+    <span codeType="orderNumP">${erpInfo.orderNumP}</span>
+</div>

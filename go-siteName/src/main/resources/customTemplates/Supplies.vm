@@ -1,0 +1,61 @@
+<table style="width: 900px; margin-top : 1px; border-collapse: collapse !important; color: black; background: white; border: 1px solid black; font-size: 12px; font-family: malgun gothic,dotum,arial,tahoma;">
+    <thead>
+    <colgroup>
+        <col width="51">
+        <col width="102">
+        <col width="131">
+        <col width="101">
+        <col width="61">
+        <col width="91">
+        <col width="91">
+        <col width="91">
+        <col width="91">
+        <col width="90">
+
+      
+    </colgroup>
+    </thead>
+    <tbody>
+    <tr>
+    	<td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">순위</td>
+    	<td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">구매처</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">품명</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">규격</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">단위</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">수량</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">단가</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">금액</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">입고요청일</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">비고</td>
+      
+    </tr>
+    
+        #foreach($item in $list)
+        <tr>
+            <td rowspan="1" style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">$!{item.preqSeq}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: left; font-weight: normal;">$!{item.customName}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: left; font-weight: normal;">$!{item.pitemName}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.pSpec}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.subCode}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.preqQ}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.pitemP}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.price}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.preqInDate}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.memo}</td>
+            
+           
+        </tr>
+        #end
+       <table style="width: 900px; margin-top : 1px; border-collapse: collapse !important; color: black; background: white; border: 1px solid black; font-size: 12px; font-family: malgun gothic,dotum,arial,tahoma;">
+       	<tr>
+        	<td style="padding: 3px !important; width:450px; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">금액 합계</td>
+        	<td style="padding: 3px !important; width:450px; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{priceSum}</td>       
+        </tr>
+       </table>
+    </tbody>
+</table>
+<div style="display : none;">
+	<span codeType="compCode">${erpInfo.compCode}</span>
+	<span codeType="divCode">${erpInfo.divCode}</span>
+	<span codeType="preqNum">${erpInfo.preqNum}</span>
+</div>

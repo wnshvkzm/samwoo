@@ -1,0 +1,64 @@
+<table style="width: 809px; margin-top : 1px; border-collapse: collapse !important; color: black; background: white; border: 1px solid black; font-size: 12px; font-family: malgun gothic,dotum,arial,tahoma;">
+ 	<tr><td align="center" style="border-width: 0px 0px 1px 1px; width: 809px; height: 3px; text-align: center; border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-bottom-style: solid; 
+ 	border-left-style: solid; -ms-word-break: break-all; background-color: rgb(255, 255, 255);" rowspan="1" colspan="9"><p align="left" style="text-align: left;">
+ 	&nbsp;1. "을"은 "갑"과 "을" 사이의 원자재 매입에 대한 거래 금액을 "아래"와 같이 인하 적용하기로 상호 협정함.</p><p align="left" style="text-align: left;">&nbsp;2. 적용 시점은 $!{startDate}일로 한다.
+ 	</p><p align="left" style="text-align: left;">&nbsp;3. 향후 원재료 가격의 급격한 변동 발생시는 별도 협의키로 함.&nbsp;</p></td></tr>
+ 	
+	<thead>
+    <colgroup>
+        <col width="35">
+        <col width="101">
+        <col width="111">
+        <col width="108">
+        <col width="91">
+        <col width="91">
+        <col width="91">
+        <col width="61">
+        <col width="121">
+    </colgroup>
+    </thead>
+    <tbody>
+    <tr>
+    	<td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">no.</td>
+    	<td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">자재코드</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">자재명</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">규격</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">현재가</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">인하단가</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">적용금액</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">인하율</td>
+        <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">비고</td>
+    </tr>
+    
+        #foreach($item in $list)
+        <tr>
+            <td rowspan="1" style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: #ddd;">$!{item.no}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: left; font-weight: normal;">$!{item.itemCode}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: left; font-weight: normal;">$!{item.itemName}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.spec}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.itemPrice}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.calcPrice}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.discountPrice}</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.reducedRates}%</td>
+            <td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: right; font-weight: normal;">$!{item.memo}</td>
+           
+        </tr>
+        #end
+       <table style="width: 809px; margin-top : 1px; border-collapse: collapse !important; color: black; background: white; border: 1px solid black; font-size: 20px; font-family: malgun gothic,dotum,arial,tahoma;">
+       	<thead>
+    		<colgroup>
+        		<col width="404">
+        		<col width="405">
+    		</colgroup>
+    	</thead>
+       	<tr>
+        	<td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: white"><p align="center" style="text-align: center;"><b><span style="font-family: malgun gothic,dotum,arial,tahoma; font-weight: normal; font-size: 15pt;">(주)삼우농기</span><br></b></p><p align="center" style="text-align: center;"><input type="text" class="ipt_editor" data-dsl="{{text}}" name="editorForm_2" id="editorForm_2" value="" data-id="" data-name="" data-require="false" data-maxlength="" data-width="200px" data-defaultstr="" data-editable="true" data-value="" placeholder=""></p></td>
+        	<td style="padding: 3px !important; height: 22px; vertical-align: middle; border: 1px solid black; text-align: center; font-weight: normal; background: white">$!{customName}<br><p align="center" style="text-align: center;">대표이사&nbsp;$!{topName}</p></td>       
+        </tr>
+       </table>
+    </tbody>
+</table>
+<div style="display : none;">
+	<span codeType="discountNum">${erpInfo.discountNum}</span>
+	<span codeType="confirmFlag">${erpInfo.confirmFlag}</span>
+</div>
